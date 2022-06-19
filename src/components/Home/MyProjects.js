@@ -6,7 +6,7 @@ const MyProjects = () => {
     fetch("myProjects.json")
       .then((res) => res.json())
       .then((data) => setProjects(data));
-  }, [projects]);
+  }, []);
   return (
     <div className="bg-secondary min-w-full">
       <h2 className="text-4xl text-center font-bold pb-8">My Projects</h2>
