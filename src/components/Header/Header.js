@@ -1,15 +1,16 @@
 import React from "react";
 import profile from "../../assets/imran.jpg";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div class="navbar bg-primary">
-      <div class="navbar-start">
-        <div class="dropdown">
-          <label tabindex="0" class="btn btn-ghost lg:hidden">
+    <div className="navbar bg-primary w-full">
+      <div className="navbar-start">
+        <div className="dropdown">
+          <label tabIndex="0" className="btn btn-ghost lg:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="h-5 w-5"
+              className="h-5 w-5"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -23,48 +24,63 @@ const Header = () => {
             </svg>
           </label>
           <ul
-            tabindex="0"
-            class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+            tabIndex="0"
+            className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <a className="text-white">About</a>
+              <Link to="/about" className="text-white">
+                About
+              </Link>
             </li>
 
             <li>
-              <a className="text-white">Projects</a>
+              <Link to="/projects" className="text-white">
+                Projects
+              </Link>
             </li>
             <li>
-              <a className="text-white">Contacts</a>
+              <a href="#contact" className="text-white">
+                Contacts
+              </a>
             </li>
           </ul>
         </div>
-        <label tabindex="0" class="btn btn-ghost btn-circle avatar">
-          <div class="w-10 rounded-full">
+        <label tabIndex="0" className="btn btn-ghost btn-circle avatar">
+          <div className="w-10 rounded-full">
             <img src={profile} alt="" />
           </div>
         </label>
-        <a className="btn btn-ghost normal-case lg:text-xl sm:text-sm text-white">
+        <Link
+          to="/"
+          className="btn btn-ghost normal-case lg:text-xl sm:text-xs text-white"
+        >
           Imran Chowdhury
-        </a>
+        </Link>
       </div>
-      <div class="navbar-center hidden lg:flex">
-        <ul class="menu menu-horizontal p-0">
+      <div className="navbar-center hidden lg:flex">
+        <ul className="menu menu-horizontal p-0">
           <li>
-            <a className="text-white">About</a>
+            <Link to="/about" className="text-white">
+              About
+            </Link>
           </li>
 
           <li>
-            <a className="text-white">Projects</a>
+            <Link to="/projects" className="text-white">
+              Projects
+            </Link>
           </li>
           <li>
-            <a className="text-white">Contact</a>
+            <a className="text-white" href="#contact">
+              Contact
+            </a>
           </li>
         </ul>
       </div>
-      <div class="navbar-end">
+      <div className="navbar-end">
         <a
           href="https://drive.google.com/file/d/1pswLYh80wOgDS6Mg0jNLxvP4bzKEoJBQ/view?usp=sharing"
-          class="btn"
+          className="btn w-2/3"
           rel="noreferrer"
           target="_blank"
         >

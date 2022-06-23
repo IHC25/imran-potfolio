@@ -25,7 +25,7 @@ const Contact = () => {
     e.target.reset();
   };
   return (
-    <div className="bg-secondary px-10 py-14 ">
+    <div id="contact" className="bg-secondary px-10 py-14 ">
       <div className="text-center pb-14 text-neutral">
         <p className="text-3xl font-bold text-transparent bg-clip-text bg-black">
           Contact Me

@@ -1,17 +1,40 @@
 [
   {
+    "id": "abc1",
     "shortInfo": "Full Stack Manufacturer Website",
+    "description": "This is a Manufacturer Website where user can buy products Manufactured by POWER TOOL BD.",
+    "features": "A Clear & Simple Homepage, Tools Page where user can buy tools, Reviews Page where everyone can see reviews of the tools, Dashboard Page where a user can see My Profile, My Orders, Add A Review Options & an admin can see My Profile, Make Admin, Add A Product, Manage Orders, Manage Products options, My Portfolio Page, About Page, Blogs Page, Register and Login Page",
     "img": "https://i.ibb.co/7v3yQ8f/power-tool.png",
-    "name": "Power Tool BD"
+    "name": "Power Tool BD",
+    "live": "https://power-tool-bd.web.app/",
+    "github": {
+      "client": "https://github.com/IHC25/power-tool-bd-client",
+      "server": "https://github.com/IHC25/power-tool-bd-server"
+    }
   },
   {
+    "id": "abc2",
+    "description": "This is a react web application to manage fruit warehouse.",
+    "features": "A Clear & Simple Homepage, A Manage Inventory Page Where User Can Manage Inventories, An Add Product Page Where User Can Add Products, An Update Product Page Where User Can Delivered and Restock Products, A My Products Page Where User Can See Which Product Were Added By that User, Blogs Page, Register and Login Page",
     "shortInfo": "Full Stack Warehouse Management Website",
     "img": "https://i.ibb.co/yBmgbkj/fruit-feast.png",
-    "name": "Fruit Feast"
+    "name": "Fruit Feast",
+    "live": "https://fruit-feast-77dda.web.app/",
+    "github": {
+      "client": "https://github.com/IHC25/fruit-feast-client",
+      "server": "https://github.com/IHC25/fruit-feast-server"
+    }
   },
   {
+    "id": "abc3",
     "shortInfo": "Individual Dental Service Provider Website",
+    "description": "This is React App for dental services.",
+    "features": "A Clear & Simple Homepage, A Service Page Where User Can Book Services, About Page, Blogs Page Register and Login Page",
     "img": "https://i.ibb.co/TK7s63S/tooth-care.png",
-    "name": "Tooth Care"
+    "name": "Tooth Care",
+    "live": "https://tooth-care-f261d.web.app/",
+    "github": {
+      "client": "https://github.com/IHC25/tooth-care-bd"
+    }
   }
 ]
